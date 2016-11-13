@@ -9,11 +9,11 @@
       <div class="large-12 columns">
         <h1>EPI 5ème</h1>
         <h2>Corps, santé, bien être et sécurité</h2>
-        <h3>Etude du rythme cardiaque des élèves</h3>
+        <h5>Etude du rythme cardiaque des élèves</h5>
       </div>
     </div>
 	<div class="row">
-        <div class="large-6 medium-6 columns">
+        <div class="large-7 medium-7 columns">
             <div class="panel">
               <h4>Avant de Commencer</h4>
               <p>Récuperer le fichier de travail de votre classe en cliquant sur le bouton correspondant:</p>
@@ -36,14 +36,15 @@
                 </div>          
             </div>
         </div>
-         
+         <!-- 
          <div class="large-6 medium-6 columns">
             <div class="panel">
               <h5>Quand vous avez fini</h5>
               <p>Déposer votre travail ici:</p>
-              <a href="http://foundation.zurb.com/docs/" class="small alert button">Déposer votre fichier</a>          
+              <a href="import.php" class="small alert button">Déposer votre fichier</a>          
             </div>
         </div>
+         -->
     </div>
     
 
