@@ -25,8 +25,8 @@
                   
                <div class="panel">
                     <h4>Données statistiques des 502</h4>
-                    <a href="downloader.php?doc=data/502-eleves.xls" class="small success button">Format MS Excel</a>
-                    <a href="downloader.php?doc=data/502-eleves.ods" class="small warning button">Format Open Office</a>
+                    <a href="downloader.php?doc=data/502-eleves2.xls" class="small success button">Format MS Excel</a>
+                    <a href="downloader.php?doc=data/502-eleves2.ods" class="small warning button">Format Open Office</a>
                 </div>
                 
                 <div class="panel">
