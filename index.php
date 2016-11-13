@@ -36,15 +36,15 @@
                 </div>          
             </div>
         </div>
-         <!-- 
+         
          <div class="large-6 medium-6 columns">
             <div class="panel">
               <h5>Quand vous avez fini</h5>
               <p>Déposer votre travail ici:</p>
-              <a href="import.php" class="small alert button">Déposer votre fichier</a>          
+              <a href="admin/contact-import.php" class="small alert button">Déposer votre fichier</a>          
             </div>
         </div>
-         -->
+         
     </div>
     
 
