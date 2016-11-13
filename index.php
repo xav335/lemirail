@@ -13,7 +13,7 @@
       </div>
     </div>
 	<div class="row">
-        <div class="large-7 medium-7 columns">
+        <div class="large-6 medium-6 columns">
             <div class="panel">
               <h4>Avant de Commencer</h4>
               <p>Récuperer le fichier de travail de votre classe en cliquant sur le bouton correspondant:</p>
