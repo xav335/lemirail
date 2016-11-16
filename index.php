@@ -6,12 +6,16 @@
   </head>
   <body>
     <div class="row">
-      <div class="large-12 columns">
-        <h1>EPI 5ème</h1>
-        <h2>Corps, santé, bien être et sécurité</h2>
-        <h5>Etude du rythme cardiaque des élèves</h5>
-      </div>
+         <div class="large-8 medium-8 columns">
+            <h1>EPI 5ème</h1>
+            <h2>Corps, santé, bien être et sécurité</h2>
+            <h5>Etude du rythme cardiaque des élèves</h5>
+          </div>
+          <div class="large-4 medium-4 columns">
+            <img alt="" src="img/logomirail.png">
+          </div>
     </div>
+    <hr>
 	<div class="row">
         <div class="large-6 medium-6 columns">
             <div class="panel">
