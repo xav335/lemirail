@@ -24,12 +24,13 @@
     
 	<div class="row">
       <div class="col-lg-12">
-        <h1>EPI 5ème</h1>
+        <h1>EPI Qu'est ce que le son ?</h1>
       </div>
     </div>
 	
 	    <h4>Transférer vos fichiers</h4>
-	    
+	    <h5>1 - ajouter votre fichier depuis votre ordinateur</h5>
+	    <h5>2 - Cliquez sur "Démarrer le transfert"</h5>
 	   
 	   
 		<!-- The file upload form used as target for the file upload widget -->
@@ -43,7 +44,7 @@
 	                <!-- The fileinput-button span is used to style the file input field as button -->
 	                <span class="btn btn-success fileinput-button">
 	                    <i class="glyphicon glyphicon-plus"></i>
-	                    <span>Ajouter votre ficher tableur ...</span>
+	                    <span>Ajouter votre ficher ...</span>
 	                    <input type="file" name="files[]" multiple>
 	                </span>
 	               

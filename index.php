@@ -6,12 +6,10 @@
   </head>
   <body>
     <div class="row">
-         <div class="large-8 medium-8 columns">
-            <h1>EPI 5ème</h1>
-            <h2>Corps, santé, bien être et sécurité</h2>
-            <h5>Etude du rythme cardiaque des élèves</h5>
+         <div class="large-9 medium-9 columns">
+            <h1>EPI Qu'est ce que le son ?</h1>
           </div>
-          <div class="large-4 medium-4 columns">
+          <div class="large-3 medium-3 columns">
             <img alt="" src="img/logomirail.png">
           </div>
     </div>
@@ -20,24 +18,18 @@
         <div class="large-6 medium-6 columns">
             <div class="panel">
               <h4>Avant de Commencer</h4>
-              <p>Récuperer le fichier de travail de votre classe en cliquant sur le bouton correspondant:</p>
+              <p>Récuperer les fichiers de travail  en cliquant sur les boutons suivants:</p>
                 <div class="panel">
-                    <h4>Données statistiques des 501</h4>
-                    <a href="downloader.php?doc=data/501-eleves.xls" class="small success button">Format MS Excel</a>
-                    <a href="downloader.php?doc=data/501-eleves.ods" class="small warning button">Format Open Office</a>
+                    <a href="downloader.php?doc=data/EPI-son-eleve.doc" class="small success button">Document Word</a>
                 </div>
                   
                <div class="panel">
-                    <h4>Données statistiques des 502</h4>
-                    <a href="downloader.php?doc=data/502-eleves2.xls" class="small success button">Format MS Excel</a>
-                    <a href="downloader.php?doc=data/502-eleves2.ods" class="small warning button">Format Open Office</a>
+                    <a href="downloader.php?doc=data/bruit-self.wav" class="small warning button">Bruit self</a>
+                     <a href="downloader.php?doc=data/Do-flute.wav" class="small warning button">Do flute</a>
+                      <a href="downloader.php?doc=data/La-flute.wav" class="small warning button">La flute</a>
                 </div>
                 
-                <div class="panel">
-                    <h4>Données statistiques des 503</h4>
-                    <a href="downloader.php?doc=data/503-eleves.xls" class="small success button">Format MS Excel</a>
-                    <a href="downloader.php?doc=data/503-eleves.ods" class="small warning button">Format Open Office</a>
-                </div>          
+              
             </div>
         </div>
          
