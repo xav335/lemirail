@@ -7,9 +7,7 @@
   <body>
     <div class="row">
          <div class="large-8 medium-8 columns">
-            <h1>EPI 5ème</h1>
-            <h2>Corps, santé, bien être et sécurité</h2>
-            <h5>Etude du rythme cardiaque des élèves</h5>
+            <h1>403e</h1>
           </div>
           <div class="large-4 medium-4 columns">
             <img alt="" src="img/logomirail.png">
@@ -22,22 +20,10 @@
               <h4>Avant de Commencer</h4>
               <p>Récuperer le fichier de travail de votre classe en cliquant sur le bouton correspondant:</p>
                 <div class="panel">
-                    <h4>Données statistiques des 501</h4>
+                    <h4>Données statistiqueEPS01</h4>
                     <a href="downloader.php?doc=data/501-eleves.xls" class="small success button">Format MS Excel</a>
                     <a href="downloader.php?doc=data/501-eleves.ods" class="small warning button">Format Open Office</a>
                 </div>
-                  
-               <div class="panel">
-                    <h4>Données statistiques des 502</h4>
-                    <a href="downloader.php?doc=data/502-eleves2.xls" class="small success button">Format MS Excel</a>
-                    <a href="downloader.php?doc=data/502-eleves2.ods" class="small warning button">Format Open Office</a>
-                </div>
-                
-                <div class="panel">
-                    <h4>Données statistiques des 503</h4>
-                    <a href="downloader.php?doc=data/503-eleves.xls" class="small success button">Format MS Excel</a>
-                    <a href="downloader.php?doc=data/503-eleves.ods" class="small warning button">Format Open Office</a>
-                </div>          
             </div>
         </div>
          
