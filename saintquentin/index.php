@@ -17,7 +17,9 @@
                 <h4>BlancaNieves de Pablo berger</h4>
                 <p><a href="downloader.php?doc=blancanieves.mp4" class="button">Téléchager le Film</a></p>
 
-                <p><a href="iphone.html" class="button">Lien en streaming</a></p>
+                <p><a href="iphonevf.html" class="button">Lien en streaming VO</a></p>
+
+                <p><a href="iphonevo.html" class="button">Lien en streaming VF</a></p>
 
                 <?php include('../inc/scripts.php'); ?>
             </div>
