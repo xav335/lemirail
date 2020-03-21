@@ -10,24 +10,23 @@
 
 <body>
 
-    <section id="actualite">
-        <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
-            <div class="callout secondary">
-                <h3>Espagnol - Mme Saint-quentin</h3>
-                <h4>BlancaNieves de Pablo berger</h4>
-                <br>
-                <p><a href="iphonevf.html" class="button">Lien en streaming VF</a></p>
+    <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
+        <div class="callout secondary">
+            <img src="../img/Lesto.png" alt="" />
+            <h3>Espagnol - Mme Saint-quentin</h3>
+            <h4>BlancaNieves de Pablo berger</h4>
+            <br>
+            <p><a href="iphonevf.html" class="button">Lien en streaming VF</a></p>
 
-                <p><a href="iphonevo.html" class="button">Lien en streaming VO</a></p>
+            <p><a href="iphonevo.html" class="button">Lien en streaming VO</a></p>
 
-                <p><a href="downloader.php?doc=blancanievesvo.mp4" class="button">Téléchager le Film en VO</a></p>
+            <p><a href="downloader.php?doc=blancanievesvo.mp4" class="button">Téléchager le Film en VO</a></p>
 
-                <p><a href="downloader.php?doc=blancanievesvf.mp4" class="button">Téléchager le Film en VF</a></p>
+            <p><a href="downloader.php?doc=blancanievesvf.mp4" class="button">Téléchager le Film en VF</a></p>
 
-                <?php include('../inc/scripts.php'); ?>
-            </div>
+            <?php include('../inc/scripts.php'); ?>
         </div>
-    </section>
+        </section>
 </body>
 
 </html>
