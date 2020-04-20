@@ -13,14 +13,34 @@
     <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
         <div class="callout secondary">
             <img src="../img/Lesto.png" alt="" />
-            <h3>Espagnol - Mme Sainquantin</h3>
+            <h3>Espagnol - Mme Sainquantin</h3><br>
 
-            <h4>COCO  VO ST-FR</h4>
-            <br>
+            
+                <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
+                <h4>COCO  VO ST-FR</h4>
+                </div>
+                <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
+                    <p><a href="iphonevo.html" class="button">Lien en streaming</a></p>
+                </div>
+                <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
+                    <p><a href="downloader.php?doc=coco.mp4" class="button">Téléchager le Film</a></p>
+                </div>
+                
+                <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
+                <h4>BLANCANIEVES</h4>
+                </div>
+                <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
+                    <p><a href="iphonevf.html" class="button">Lien en streaming</a></p>
+                </div>
+                <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
+                    <p><a href="downloader.php?doc=blancanievesvo.mp4" class="button">Téléchager le Film</a></p>
+                </div>
+                
 
-            <p><a href="iphonevo.html" class="button">Lien en streaming</a></p>
+            </div>
+  
 
-            <p><a href="downloader.php?doc=coco.mp4" class="button">Téléchager le Film</a></p>
+           
 
 
             <?php include('../inc/scripts.php'); ?>
