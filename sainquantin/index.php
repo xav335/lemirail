@@ -15,7 +15,7 @@
             <img src="../img/Lesto.png" alt="" />
             <h3>Espagnol - Mme Sainquantin</h3><br>
 
-            
+                <hr width="100%" color="midnightblue" size="3">
                 <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
                 <h4>COCO  VO ST-FR</h4>
                 </div>
@@ -25,7 +25,8 @@
                 <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
                     <p><a href="downloader.php?doc=coco.mp4" class="button">Téléchager le Film</a></p>
                 </div>
-                
+                <hr width="100%" color="midnightblue" size="3">
+
                 <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
                 <h4>Zipi y Zape  VO ST-FR</h4>
                 </div>
@@ -35,6 +36,7 @@
                 <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
                     <p><a href="downloader.php?doc=ZipiyZape.mp4" class="button">Téléchager le Film</a></p>
                 </div>
+                <hr width="100%" color="midnightblue" size="3">
 
                 <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
                 <h4>BLANCANIEVES</h4>
@@ -45,7 +47,7 @@
                 <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
                     <p><a href="downloader.php?doc=blancanievesvo.mp4" class="button">Téléchager le Film</a></p>
                 </div>
-                
+                <hr width="100%" color="midnightblue" size="3">
 
             </div>
   
