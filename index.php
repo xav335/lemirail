@@ -15,7 +15,9 @@
             <div class="callout secondary">
                 <h3>Javier Gonzalez</h3>
                 <h4></h4>
-                <p><a href="saintquentin/index.php" class="button">Section Espagnol</a></p>
+                <p><a href="sainquantin/index.php" class="button">Section Espagnol</a></p>
+
+                <!-- <p><a href="editeur/index.php" class="button">Editeur Math</a></p> -->
 
                 <?php include('inc/scripts.php'); ?>
             </div>

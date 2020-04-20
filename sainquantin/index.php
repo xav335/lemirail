@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <?php include('../inc/meta.php'); ?>
-    <title>Mme Saint QUENTIN</title>
+    <title>Mme Sainquantin</title>
 </head>
 
 <body>
@@ -14,12 +14,13 @@
         <div class="callout secondary">
             <img src="../img/Lesto.png" alt="" />
             <h3>Espagnol - Mme Sainquantin</h3>
-            <h4>BlancaNieves de Pablo berger</h4>
+
+            <h4>COCO  VO ST-FR</h4>
             <br>
 
-            <p><a href="iphonevo.html" class="button">Lien en streaming VO</a></p>
+            <p><a href="iphonevo.html" class="button">Lien en streaming</a></p>
 
-            <p><a href="downloader.php?doc=blancanievesvo.mp4" class="button">Téléchager le Film en VO</a></p>
+            <p><a href="downloader.php?doc=coco.mp4" class="button">Téléchager le Film</a></p>
 
 
             <?php include('../inc/scripts.php'); ?>
