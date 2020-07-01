@@ -41,7 +41,7 @@
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-          <h4><a href="Garcons/index.php" class="button">Garçons</a></h4>
+          <h4><a href="garcons/index.php" class="button">Garçons</a></h4>
       </div>
   </div>
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
