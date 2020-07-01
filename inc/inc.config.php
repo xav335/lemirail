@@ -5,33 +5,33 @@
 	switch( $_SERVER[ "DOCUMENT_ROOT" ] ) {
 		
 		// ---- Serveur local Franck -------- //
-		case "/var/www/gonzalez" :
+		case "/var/www/math" :
 			$localhost = "localhost";
-			$dbname = "gonzalez";
-			$user = "global";
-			$mdp = "global";
+			$dbname = "math";
+			$user = "math";
+			$mdp = "math33";
 			break;
 		
 		// ---- Serveur PRE-PROD ------------ //
-		case "/home/web/gonzalez" :
+		case "/home/web/math" :
 			$localhost = "localhost";
-			$dbname = "gonzalez";
-			$user = "gonzalez";
-			$mdp = "gonzalez33";
+			$dbname = "math";
+			$user = "math";
+			$mdp = "math33";
 			break;
 		
 		// ---- Serveur PROD ---------------- //
-		case "/var/www/gonzalez" :
+		case "/var/www/math" :
 			$localhost = "localhost";
-			$dbname = "gonzalez";
-			$user = "gonzalez";
-			$mdp = "gonzalez33";
+			$dbname = "math";
+			$user = "math";
+			$mdp = "math33";
 			break;
 		default:
 		    $localhost = "localhost";
-		    $dbname = "gonzalez";
-		    $user = "gonzalez";
-		    $mdp = "gonzalez33";
+		    $dbname = "math";
+		    $user = "math";
+		    $mdp = "math33";
 		    break;
 	}
 		
@@ -42,7 +42,7 @@
 	
 	define( "MAILCUSTOMER", 	"NePasRepondre@akisteel.com" );
 	define( "MAILNAMECUSTOMER", "gonzalez" );
-	define( "URLSITEDEFAULT", 	"http://www.gonzalez.pm" );
+	define( "URLSITEDEFAULT", 	"http://math.gonzalez.pm" );
 	define( "FACEBOOK_LINK", 	"https://www.facebook.com/xxx" );
 	define( "DAILYMOTION_LINK", "#" );
 	

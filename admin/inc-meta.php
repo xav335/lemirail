@@ -3,13 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- Le styles -->
-<link type="text/css" href="/admin/css/bootstrap.min.css" media="screen" rel="stylesheet">
-<link type="text/css" href="/admin/css/bootstrap-theme.min.css" media="screen" rel="stylesheet">
-<link type="text/css" href="/admin/css/style.css" media="screen" rel="stylesheet">
+<link href="/admin/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/admin/css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/admin/css/style.css" media="screen" rel="stylesheet" type="text/css">
 <link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-<link type="text/css" href="/admin/js/jquery-ui.min.css" media="screen" rel="stylesheet">
-<link type="text/css" href="/admin/css/pagination.css" media="screen" rel="stylesheet">
-<link type="text/css" href="/admin/css/style.css" media="screen" rel="stylesheet">
+<link href="/admin/js/jquery-ui.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/admin/css/pagination.css" media="screen" rel="stylesheet" type="text/css">
 
 <!-- Scripts -->
 <!--<script type="text/javascript" src="/admin/js/custom.js"></script>-->
