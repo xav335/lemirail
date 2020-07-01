@@ -40,7 +40,7 @@ if ( !empty( $liste_photo ) ) :
   $colonne=0; 
   $ligne=0;?>
 <div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div> 
+  <div class="large-1 medium-1 small-12 columns">&nbsp;</div> 
 <?  foreach( $liste_photo as $_photo ) :
     $colonne++; 
     $id = $_photo[ "id" ];
@@ -55,11 +55,11 @@ if ( !empty( $liste_photo ) ) :
     </div>
     <?php if ($colonne%5==0):
         $colonne==0; $ligne++; ?>
-            <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
+            <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
         </div>
       <?php if ($ligne<4):?>
         <div class="row contenu">
-          <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
+          <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
       <?php endif?>    
     <?php endif ?>  
 
