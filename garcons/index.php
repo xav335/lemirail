@@ -27,7 +27,7 @@
     <meta name="robots" content="noindex">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <?php include('../inc/meta.php'); ?>
-    <title>Filles</title>
+    <title><?php echo $dossier?></title>
 </head>
 
 <body>
