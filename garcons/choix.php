@@ -9,7 +9,7 @@
     $liste_photo = $photo->getPhoto($id);
     //print_r($liste_photo);
   
-    $id_categorie = 2 ; //les filles
+    $id_categorie = 1 ; //les garçons
     if ($id_categorie==2){
       $dossier = "filles";
     }else{

@@ -28,17 +28,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <?php include('../inc/meta.php'); ?>
     <script type="text/javascript">
-        window.setTimeout("location=('/resultats/index.php?idCat=<?php echo $id_categorie ?>');",2000);
+        window.setTimeout("location=('/resultats/index.php?idCat=<?php echo $id_categorie ?>');",5000);
     </script>
-    <title>Filles</title>
+    <title><?php echo $dossier?></title>
 </head>
 
 <body>
-<div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-          <h4><a href="/index.php" class="button">Retour</a></h4>
-      </div>
-  </div>
+
 <?php
 if ( !empty( $liste_photo ) ) : 
   $colonne=0; 
@@ -69,7 +65,11 @@ if ( !empty( $liste_photo ) ) :
 
   <?php endforeach ?>
 </div> 
-
+<div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
+      <div class="callout secondary">
+          <h4><a href="/index.php" class="button">Retour</a></h4>
+      </div>
+  </div>
 
 
 <?php endif ?>
