@@ -218,5 +218,61 @@ class Photo extends StorageManager {
 		$this->dbDisConnect();
 		return $new_array;
 	}
+
+	public function getPhoto( $id) {
+		$this->dbConnect();
+
+		$requete = "SELECT * FROM `photo` WHERE photo.id=". $id .";";
+		
+		
+		$result = mysqli_query( $this->mysqli, $requete );
+		
+		while( $row = mysqli_fetch_assoc( $result ) ) {
+			$new_array[] = $row;
+		}
+		//$this->dbDisConnect();
+		return $new_array;
+	}
 	
+
+
+	public function setVote( $id) {
+		if ( intval( $id ) <= 0 ) return false;
+		
+		$this->dbConnect();
+		$this->begin();
+		try {
+			$vote = $this->getPhoto($id);
+			$cpt = $vote[0]["vote"];
+			if ( !isset( $cpt ) ) {
+				$cpt = 1;
+			} else {
+				$cpt++;
+			}
+
+			$requete = "UPDATE `photo` SET `vote`= ". $cpt;
+			$requete .= " WHERE `id`=" . $id . ";";
+			$result = mysqli_query( $this->mysqli, $requete );
+			
+			if ( $debug ) echo $requete . "<br>";
+			else {
+				if ( !$result ) {
+					throw new Exception( $requete );
+				}
+		
+				$this->commit();
+				return false;
+			}
+			
+			return $num_offre;
+	
+		} catch (Exception $e) {
+			$this->rollback();
+			throw new Exception("Erreur Mysql ". $e->getMessage());
+			return "errrrrrrooooOOor";
+		}
+	
+	
+		$this->dbDisConnect();
+	}
 }

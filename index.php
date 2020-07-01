@@ -26,8 +26,35 @@
 </head>
 
 <body>
+<div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
+  <img src="../img/Lesto.png" alt="" />  
 
-
+</div>
+  <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
+    <h3>Gala Lestonnac</h3> <br>
+  </div>
+  <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
+      <div class="callout secondary">
+          <h4><a href="filles/index.php" class="button">Filles</a></h4>
+      </div>
+  </div>
+  
+  <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
+      <div class="callout secondary">
+          <h4><a href="Garcons/index.php" class="button">Garçons</a></h4>
+      </div>
+  </div>
+  <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
+      <div class="callout secondary">
+          <h4><a href="resultats/index.php?idCat=2" class="button">Résultats filles</a></h4>
+      </div>
+  </div>
+  <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
+      <div class="callout secondary">
+          <h4><a href="resultats/index.php?idCat=1" class="button">Résultats garçons</a></h4>
+      </div>
+  </div>
+<?php include('inc/scripts.php'); ?>
 </body>
 
 </html>

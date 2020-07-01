@@ -6,12 +6,17 @@
   $photo = new Photo();
 
   if ( 1 == 1 ) {
-		unset( $recherche );
-    $recherche[ "id_categorie" ] = 2 ; //les filles
+    unset( $recherche );
+    $id_categorie = 2 ; //les filles
+    $recherche[ "id_categorie" ] = $id_categorie ; 
     $recherche[ "order_by" ] = "id" ; 
     $liste_photo = $photo->getListe( $recherche, $debug );
     //print_r($liste_photo);
-  
+    if ($id_categorie==2){
+      $dossier = "filles";
+    }else{
+      $dossier = "garcons";
+    }
 	}
 ?>
 
@@ -35,11 +40,12 @@ if ( !empty( $liste_photo ) ) :
   <div class="large-1 medium-2 small-12 columns">&nbsp;</div> 
 <?  foreach( $liste_photo as $_photo ) :
     $colonne++; 
+    $id = $_photo[ "id" ];
     $titre = $_photo[ "titre" ];
     $legende = $_photo[ "legende" ];
-    $image_normale = "/img/filles" . $_photo[ "image" ];
+    $image_normale = "/img/". $dossier ."/". $_photo[ "image" ];
     //echo $image_normale . "<br>"; ?>
-    <div class=" large-2 medium-2 small-12 columns"><img class="galerie" src="<?php echo $image_normale ?>"/></div>
+    <div class=" large-2 medium-2 small-12 columns"><a href="/<?php echo $dossier ?>/choix.php?id=<?php echo $id?>"><img class="galerie" src="<?php echo $image_normale ?>"/></a></div>
     <?php if ($colonne%5==0):
         $colonne==0; $ligne++; ?>
             <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
@@ -86,6 +92,7 @@ if ( !empty( $liste_photo ) ) :
 </div> -->
 
 <?php endif ?>
+<?php include('../inc/scripts.php'); ?>
 </body>
 
 </html>
