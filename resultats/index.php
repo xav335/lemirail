@@ -60,7 +60,7 @@ if ( !empty( $liste_photo ) ) :
     //echo $image_normale . "<br>"; ?>
     <td style="text-align: center;">
             <img class="galerie" src="<?php echo $image_normale ?>"/>
-            <p style="text-align: center;"><b><?php echo $vote?></b></p>
+            <p style="text-align: center;"><?php echo $titre; ?>&nbsp;:&nbsp;<b><?php echo $vote?></b></p>
     </td>
     <?php if ($colonne%$nbColonnes==0):
         $colonne==0; $ligne++; ?>
