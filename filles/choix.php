@@ -44,7 +44,7 @@ if ( !empty( $liste_photo ) ) : ?>
             <img class="galerie" src="<?php echo $image_normale ?>"/></a>
         </div>
         <div class=" large-4 medium-4 small-12 columns" style="text-align: center; padding: 50px 0px 0px 0px;">
-            
+            <?php echo $titre; ?>&nbsp;<br><?php echo $legende; ?><br><br>
             <div class="callout alert" >
                 <h4><a href="/<?php echo $dossier ?>/choix2.php?id=<?php echo $id?>" class="button">Validez votre choix</a></h4>
             </div>
