@@ -40,10 +40,10 @@ if ( !empty( $liste_photo ) ) : ?>
         $legende = $_photo[ "legende" ];
         $image_normale = "/img/". $dossier ."/". $_photo[ "image" ];?>
         
-        <div class=" large-9 medium-9 small-12 columns" style="text-align: center;">
+        <div class=" large-8 medium-8 small-12 columns" style="text-align: center;">
             <img class="galerie" src="<?php echo $image_normale ?>"/></a>
         </div>
-        <div class=" large-3 medium-3 small-12 columns" style="text-align: center; padding: 50px 0px 0px 0px;">
+        <div class=" large-4 medium-4 small-12 columns" style="text-align: center; padding: 50px 0px 0px 0px;">
             
             <div class="callout alert" >
                 <h4><a href="/<?php echo $dossier ?>/choix2.php?id=<?php echo $id?>" class="button">Validez votre choix</a></h4>

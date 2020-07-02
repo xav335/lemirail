@@ -30,7 +30,7 @@ CREATE TABLE `photo` (
   `vote` int(11) unsigned DEFAULT 0,
   `image` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=284 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=287 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `photo` (
 
 LOCK TABLES `photo` WRITE;
 /*!40000 ALTER TABLE `photo` DISABLE KEYS */;
-INSERT INTO `photo` VALUES (221,2,'Lilou','',3,'/1.png'),(245,2,'jennifer','',0,'/2.png'),(246,2,'Lilou','',0,'/3.png'),(247,2,'jennifer','',1,'/4.png'),(248,2,'Lilou','',0,'/5.png'),(249,2,'jennifer','',0,'/6.png'),(250,2,'Lilou','',3,'/7.png'),(251,2,'jennifer','',1,'/8.png'),(252,2,'Lilou','',0,'/9.png'),(253,2,'jennifer','',1,'/10.png'),(254,2,'Lilou','',0,'/11.png'),(255,2,'jennifer','',0,'/12.png'),(256,2,'Lilou','',0,'/13.png'),(257,2,'jennifer','',1,'/14.png'),(258,2,'Lilou','',2,'/15.png'),(259,2,'jennifer','',2,'/16.png'),(260,2,'jennifer','',0,'/17.png'),(261,2,'Lilou','',0,'/18.png'),(262,2,'jennifer','',1,'/19.png'),(263,2,'jennifer','',3,'/20.png'),(264,1,'Lilou','',4,'/1.png'),(265,1,'Lilou','',0,'/2.png'),(266,1,'Lilou','',0,'/3.png'),(267,1,'Lilou','',2,'/4.png'),(268,1,'Lilou','',1,'/5.png'),(269,1,'Lilou','',0,'/6.png'),(270,1,'Lilou','',0,'/7.png'),(271,1,'Lilou','',0,'/8.png'),(272,1,'Lilou','',1,'/9.png'),(273,1,'Lilou','',0,'/10.png'),(274,1,'Lilou','',0,'/11.png'),(275,1,'Lilou','',1,'/12.png'),(276,1,'Lilou','',0,'/13.png'),(277,1,'Lilou','',0,'/14.png'),(278,1,'Lilou','',0,'/15.png'),(279,1,'Lilou','',4,'/16.png'),(280,1,'Lilou','',1,'/17.png'),(281,1,'Lilou','',1,'/18.png'),(282,1,'Lilou','',0,'/19.png'),(283,1,'Lilou','',1,'/20.png');
+INSERT INTO `photo` VALUES (221,2,'Lilou','',4,'/1.jpg'),(245,2,'jennifer','',0,'/2.jpg'),(246,2,'Lilou','',0,'/3.jpg'),(247,2,'jennifer','',1,'/4.jpg'),(248,2,'Lilou','',0,'/5.jpg'),(249,2,'jennifer','',1,'/6.jpg'),(250,2,'Lilou','',3,'/7.jpg'),(251,2,'jennifer','',1,'/8.jpg'),(252,2,'Lilou','',0,'/9.jpg'),(253,2,'jennifer','',1,'/10.jpg'),(254,2,'Lilou','',0,'/11.jpg'),(255,2,'jennifer','',0,'/12.jpg'),(256,2,'Lilou','',0,'/13.jpg'),(257,2,'jennifer','',1,'/14.jpg'),(258,2,'Lilou','',2,'/15.jpg'),(259,2,'jennifer','',2,'/16.jpg'),(260,2,'jennifer','',0,'/17.jpg'),(261,2,'Lilou','',1,'/18.jpg'),(262,2,'jennifer','',1,'/19.jpg'),(263,2,'jennifer','',3,'/20.jpg'),(264,1,'Lilou','',4,'/1.jpg'),(265,1,'Lilou','',0,'/2.jpg'),(266,1,'Lilou','',0,'/3.jpg'),(267,1,'Lilou','',2,'/4.jpg'),(268,1,'Lilou','',1,'/5.jpg'),(269,1,'Lilou','',0,'/6.jpg'),(270,1,'Lilou','',0,'/7.jpg'),(271,1,'Lilou','',0,'/8.jpg'),(272,1,'Lilou','',1,'/9.jpg'),(273,1,'Lilou','',0,'/10.jpg'),(274,1,'Lilou','',0,'/11.jpg'),(275,1,'Lilou','',1,'/12.jpg'),(276,1,'Lilou','',0,'/13.jpg'),(277,1,'Lilou','',0,'/14.jpg'),(278,1,'Lilou','',0,'/15.jpg'),(279,1,'Lilou','',4,'/16.jpg'),(280,2,'Lilou','',1,'/21.jpg'),(281,2,'Lilou','',1,'/22.jpg'),(282,2,'Lilou','',0,'/23.jpg'),(283,2,'Lilou','',1,'/24.jpg'),(284,2,'','',0,'/25.jpg'),(285,2,'','',0,'/26.jpg'),(286,2,'','',0,'/27.jpg');
 /*!40000 ALTER TABLE `photo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-07-01 18:35:29
+-- Dump completed on 2020-07-02 12:09:03

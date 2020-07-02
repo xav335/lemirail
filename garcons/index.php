@@ -57,39 +57,11 @@ if ( !empty( $liste_photo ) ) :
     <?php endif ?>  
 
   <?php endforeach ?>
+  <div class=" large-2 medium-2 small-12 columns galerie">&nbsp;</div>
+  <div class=" large-2 medium-2 small-12 columns galerie">&nbsp;</div>
+  <div class=" large-2 medium-2 small-12 columns galerie">&nbsp;</div>
+  <div class=" large-2 medium-2 small-12 columns galerie">&nbsp;</div>
 </div> 
-
-
-
- 
-
-<!-- <div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/1.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/2.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/3.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-</div>
-<div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/1.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/2.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/3.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-</div>
-<div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/1.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/2.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/3.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-</div> -->
 
 <?php endif ?>
 <?php include('../inc/scripts.php'); ?>

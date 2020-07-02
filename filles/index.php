@@ -27,7 +27,7 @@
     <meta name="robots" content="noindex">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <?php include('../inc/meta.php'); ?>
-    <title>Filles</title>
+    <title><?php echo $dossier?></title>
 </head>
 
 <body>
@@ -50,7 +50,7 @@ if ( !empty( $liste_photo ) ) :
         $colonne==0; $ligne++; ?>
             <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
         </div>
-      <?php if ($ligne<4):?>
+      <?php if ($ligne<49):?>
         <div class="row contenu">
           <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
       <?php endif?>    

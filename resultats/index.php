@@ -57,7 +57,7 @@ if ( !empty( $liste_photo ) ) :
         $colonne==0; $ligne++; ?>
             <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
         </div>
-      <?php if ($ligne<4):?>
+      <?php if ($ligne<43):?>
         <div class="row contenu">
           <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
       <?php endif?>    
