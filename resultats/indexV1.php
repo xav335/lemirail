@@ -36,20 +36,11 @@
 <body>
 
 <?php
-if (!isset($_GET["col"]) || $_GET["col"]=="") {
-    $nbColonnes = 10;
-} else {
-     
-    $nbColonnes = $_GET["col"];
-}
-
 if ( !empty( $liste_photo ) ) : 
   $colonne=0; 
   $ligne=0;?>
-<table>
-  
-  <tbody>
-    <tr>
+<div class="row contenu">
+  <div class="large-1 medium-1 small-12 columns">&nbsp;</div> 
 <?  foreach( $liste_photo as $_photo ) :
     $colonne++; 
     $id = $_photo[ "id" ];
@@ -58,23 +49,27 @@ if ( !empty( $liste_photo ) ) :
     $legende = $_photo[ "legende" ];
     $image_normale = "/img/". $dossier ."/". $_photo[ "image" ];
     //echo $image_normale . "<br>"; ?>
-    <td style="text-align: center;">
+    <div class=" large-2 medium-2 small-12 columns">
             <img class="galerie" src="<?php echo $image_normale ?>"/>
-            <p style="text-align: center;"><b><?php echo $vote?></b></p>
-    </td>
-    <?php if ($colonne%$nbColonnes==0):
+            <p style="text-align: center;"><?php echo $vote?></p>
+    </div>
+    <?php if ($colonne%5==0):
         $colonne==0; $ligne++; ?>
-             </tr>
+            <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
+        </div>
       <?php if ($ligne<43):?>
-        <tr>
+        <div class="row contenu">
+          <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
       <?php endif?>    
     <?php endif ?>  
 
   <?php endforeach ?>
-</tr>
-  </tbody>
-</table>
-  
+</div> 
+<div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
+      <div class="callout secondary">
+          <h4><a href="/index.php" class="button">Retour</a></h4>
+      </div>
+  </div>
 
 
 <?php endif ?>
