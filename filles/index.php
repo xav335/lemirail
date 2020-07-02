@@ -33,11 +33,21 @@
 <body>
 
 <?php
+if (!isset($_GET["col"]) || $_GET["col"]=="") {
+    $nbColonnes = 10;
+} else {
+   
+    $nbColonnes = $_GET["col"];
+}
+
 if ( !empty( $liste_photo ) ) : 
   $colonne=0; 
   $ligne=0;?>
-<div class="row contenu">
-  <div class="large-1 medium-1 small-12 columns">&nbsp;</div> 
+
+  <table>
+  
+  <tbody>
+    <tr>
 <?  foreach( $liste_photo as $_photo ) :
     $colonne++; 
     $id = $_photo[ "id" ];
@@ -45,51 +55,31 @@ if ( !empty( $liste_photo ) ) :
     $legende = $_photo[ "legende" ];
     $image_normale = "/img/". $dossier ."/". $_photo[ "image" ];
     //echo $image_normale . "<br>"; ?>
-    <div class=" large-2 medium-2 small-12 columns"><a href="/<?php echo $dossier ?>/choix.php?id=<?php echo $id?>"><img class="galerie" src="<?php echo $image_normale ?>"/></a></div>
-    <?php if ($colonne%5==0):
+    
+    <td style="text-align: center;">
+        <a href="/<?php echo $dossier ?>/choix.php?id=<?php echo $id?>"><img class="galerie" src="<?php echo $image_normale ?>"/></a><br>
+        <?php echo $titre; ?>&nbsp;<br><?php echo $legende; ?>
+    </td>
+    
+    <?php if ($colonne%$nbColonnes==0):
         $colonne==0; $ligne++; ?>
-            <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
-        </div>
+            </tr>
+         
       <?php if ($ligne<49):?>
-        <div class="row contenu">
-          <div class="large-1 medium-1 small-12 columns">&nbsp;</div>
+        <tr>
       <?php endif?>    
     <?php endif ?>  
 
   <?php endforeach ?>
-</div> 
+</tr>
+  </tbody>
+</table>
 
 
 
  
 
-<!-- <div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/1.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/2.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/3.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-</div>
-<div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/1.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/2.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/3.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-</div>
-<div class="row contenu">
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/1.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/2.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/3.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class=" large-2 medium-2 small-12 columns galerie"><img   src="img/filles/4.png"/></div>
-  <div class="large-1 medium-2 small-12 columns">&nbsp;</div>
-</div> -->
+
 
 <?php endif ?>
 <?php include('../inc/scripts.php'); ?>
