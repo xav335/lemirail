@@ -1,0 +1,285 @@
+2021-06-29 13:14:40 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:14:40 : sendMail
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : jgonzalez@iconeo.fr
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : 
+2021-06-29 13:14:40 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						'LleJO',
+						'',
+						0,
+						0,
+						1
+					);
+2021-06-29 13:14:40 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:17:19 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:17:19 : sendMail
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 : jgonzalez@iconeo.fr
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 : 
+2021-06-29 13:17:19 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:19:57 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:19:57 : sendMail
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : nzalez@gmail.com
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : 
+2021-06-29 13:19:57 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'GONZALEZ xavier',
+						'nzalez@gmail.com',
+						'',
+						'ip31t',
+						'',
+						0,
+						0,
+						1
+					);
+2021-06-29 13:19:57 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'nzalez@gmail.com',
+						'',
+						''
+					);
+2021-06-29 13:21:31 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:21:31 : sendMail
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 : jgonzalez@iconeo.fr
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 : 
+2021-06-29 13:21:31 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:22:15 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:22:15 : sendMail
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 : jgonzalez@iconeo.fr
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 : 
+2021-06-29 13:22:15 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:22:31 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:22:31 : sendMail
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 : jgonzalez@iconeo.fr
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 : 
+2021-06-29 13:22:31 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:23:25 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:23:25 : sendMail
+2021-06-29 13:23:25 : GONZALEZ
+2021-06-29 13:23:25 : jgonzalez@iconeo.fr
+2021-06-29 13:23:25 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:25:12 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:25:12 : sendMail
+2021-06-29 13:25:12 : Gonzalez
+2021-06-29 13:25:12 : jgonzalez@iconeo.fr
+2021-06-29 13:25:12 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'jgonzalez@iconeo.fr',
+						'',
+						''
+					);
+2021-06-29 13:26:14 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:26:14 : sendMail
+2021-06-29 13:26:14 : GONZALEZ
+2021-06-29 13:26:14 : gregorio.gonzalez.fernandez@gmail.com
+2021-06-29 13:26:14 : XAV: 
+2021-06-29 13:26:14 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'GONZALEZ',
+						'gregorio.gonzalez.fernandez@gmail.com',
+						'',
+						'cxPrs',
+						'',
+						0,
+						0,
+						1
+					);
+2021-06-29 13:26:14 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'gregorio.gonzalez.fernandez@gmail.com',
+						'',
+						''
+					);
+2021-06-29 13:27:35 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:27:35 : sendMail
+2021-06-29 13:27:35 : GONZALEZ
+2021-06-29 13:27:35 : gregorio.gonzalez.fernandez@gmail.com
+2021-06-29 13:27:35 Erreur: Erreur Mysql INSERT INTO  .`email`
+						(`date`, `name`,`firstname`,`cp`,`town`, `email`,`phone`, `message`)
+						VALUES (
+						now(),
+						'',
+						'',
+						'',
+						'',
+						'gregorio.gonzalez.fernandez@gmail.com',
+						'',
+						''
+					);
+2021-06-29 13:33:11 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:33:11 : sendMail
+2021-06-29 13:33:11 : GONZALEZ
+2021-06-29 13:33:11 : nzalez@gmail.com
+2021-06-29 13:33:11 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'GONZALEZ',
+						'nzalez@gmail.com',
+						'',
+						'F3GcB',
+						'',
+						0,
+						0,
+						1
+					);
+2021-06-29 13:33:11 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>nzalez@gmail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-06-29 13:33:11 : Message envoyÃ© ! 
+2021-06-29 13:33:11 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-06-29 13:45:34 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:45:34 : sendMail
+2021-06-29 13:45:34 : GONZALEZ
+2021-06-29 13:45:34 : nzalez@gmail.com
+2021-06-29 13:45:34 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>nzalez@gmail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-06-29 13:45:34 : Message envoyÃ© ! 
+2021-06-29 13:45:34 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-06-29 13:53:14 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:53:14 : sendMail
+2021-06-29 13:53:14 : GONZALEZ
+2021-06-29 13:53:14 : jgonzalez@iconeo.fr
+2021-06-29 13:53:14 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'GONZALEZ',
+						'jgonzalez@iconeo.fr',
+						'',
+						'0WiaR',
+						'',
+						0,
+						0,
+						1
+					);
+2021-06-29 13:53:14 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>jgonzalez@iconeo.fr / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-06-29 13:53:14 : Message envoyÃ© ! 
+2021-06-29 13:53:14 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-06-29 13:55:53 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 13:55:53 : sendMail
+2021-06-29 13:55:53 : Gonzalez
+2021-06-29 13:55:53 : nzalez@gmail.com
+2021-06-29 13:55:53 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>nzalez@gmail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-06-29 13:55:53 : Message envoyÃ© ! 
+2021-06-29 13:55:53 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  

@@ -9,7 +9,7 @@
 	font-style:normal;
 }
 
-body {font-family:'CenturyGothic';color:rgb(216, 25, 25);}
+body {font-family:'CenturyGothic';color:black;padding-left: 40px; padding-right: 40px}
 h1, h2, h3, h4, h5, h6 {font-family:'CenturyGothic';text-transform:uppercase;font-weight: bold;}
 
 .actualites .swiper-slide h3 {color:#fff;}
