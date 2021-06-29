@@ -12,6 +12,7 @@ error_log(date("Y-m-d H:i:s") ." xxxxxxxxxxx  ". $_SERVER["SCRIPT_FILENAME"] ." 
 error_log(date("Y-m-d H:i:s") ." : ". $_POST['action'] ."\n", 3, "../log/spy.log");
 error_log(date("Y-m-d H:i:s") ." : ". $_POST['nom'] ."\n", 3, "../log/spy.log");
 error_log(date("Y-m-d H:i:s") ." : ". $_POST['email'] ."\n", 3, "../log/spy.log");
+error_log(date("Y-m-d H:i:s") ." : ". $_POST['file'] ."\n", 3, "../log/spy.log");
 
 if ($_POST[ "action" ] == "sendMail") {
 	

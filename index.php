@@ -129,6 +129,10 @@
 	 	 data.push({
 	   		name: 'action',
 	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'cm6eme'
 	  	})
 
 	  console.log(data);
@@ -141,12 +145,7 @@
 		        success: function (data) {
 		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
 		        	$("#nom").val("");
-		        	$("#prenom").val("");
-		        	$("#ville").val("");
-		        	$("#cp").val("");
 		           	$("#email").val("");
-		         	$("#tel").val("");
-		           	$("#message").val("");
 		        },
 		        error: function() {
 		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");

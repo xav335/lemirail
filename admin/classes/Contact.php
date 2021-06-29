@@ -204,7 +204,7 @@ class Contact extends StorageManager
 						VALUES (
 						'" . addslashes($value['nom']) . "',
 						'" . addslashes($value['email']) . "',
-						'" . addslashes($value['firstname']) . "',
+						'" . addslashes($value['file']) . "',
 						'" . randomChar(5) . "',
 						'" . addslashes($value['phone']) . "',
 						" . $newsletter . ",

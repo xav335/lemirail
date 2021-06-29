@@ -283,3 +283,31 @@
 2021-06-29 13:55:53 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>nzalez@gmail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
 2021-06-29 13:55:53 : Message envoyÃ© ! 
 2021-06-29 13:55:53 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-06-29 22:37:12 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 22:37:12 : sendMail
+2021-06-29 22:37:12 : rrrrrr rrrrrr
+2021-06-29 22:37:12 : jjj@jj.gg
+2021-06-29 22:37:12 : cm6eme
+2021-06-29 22:37:12 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>jjj@jj.gg / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-06-29 22:37:12 : Message envoyÃ© ! 
+2021-06-29 22:37:12 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-06-29 22:38:42 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-06-29 22:38:42 : sendMail
+2021-06-29 22:38:42 : Javier GONZALEZ
+2021-06-29 22:38:42 : isa.alvarez.fernandez@gmail.com
+2021-06-29 22:38:42 : cm6eme
+2021-06-29 22:38:42 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'Javier GONZALEZ',
+						'isa.alvarez.fernandez@gmail.com',
+						'cm6eme',
+						'Tr2wb',
+						'',
+						0,
+						0,
+						1
+					);
+2021-06-29 22:38:42 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>isa.alvarez.fernandez@gmail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-06-29 22:38:42 : Message envoyÃ© ! 
+2021-06-29 22:38:42 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
