@@ -64,7 +64,7 @@
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
       <div class="callout secondary">
-           <h4><a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger" class="button" >TELECHARGER LE SPECTACLE</a></h4>
+           <h4><a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger" class="button" >TELECHARGER LE SPECTACLE EN HD (3,5Go)</a></h4>
       </div>
   </div>
    <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
