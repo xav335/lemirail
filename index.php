@@ -29,23 +29,29 @@
 <div class="large-3 medium-3 small-12 columns" style="text-align: center;"> 
   <img src="img/logoEDA.jpg" alt="" />  
 </div>
-
-<div class="large-7 medium-7 small-12 columns" style="text-align: center;"> 
-   </br></br> <h2>Page de don et de téléchargement des spectacles de nos élèves.</h2>
+<div class="large-6 medium-6 small-12 columns" style="text-align: center;"> 
+   </br></br> <h2>Page de téléchargement des spectacles de nos élèves.</h2>
+</div>
+<div class="large-3 medium-3 small-12 columns" style="text-align: center;"> 
+  </br></br><img src="img/AFA.png" alt="" />  
 </div>
 
   <div class="large-12 medium-12 small-12 columns" style="text-align: justify;">
-    </br></br> <p>C'est une vraie déception pour nous, association des parents d'élèves de l'établissement Emmanuel d'Alzon, de ne pouvoir vous convier, en cette fin d'année, à un moment festif, d'échange et de partage avec les familles et les élèves que vous avez accompagnés sur les différents projets.</br>
-    Cette année les CE1/CE2 vont présenter un film avec deux chansons, le cycle 3 propose le film de leur pièce de théâtre en anglais et les 5èmes plusieurs courts métrages en anglais.</br>
-    Deux soirées de retransmission vous sont proposées, ainsi qu'aux familles d'élèves, pour partager ce moment virtuellement (vous avez reçu les liens précédemment). </br>
-    Nous avions pour projet de reverser l'ensemble des bénéfices de ces soirées, si elles avaient pu se faire en présentiel, à une association chère à notre à notre communauté, l'Association Française de l'Atrésie de l'Oesophage (AFAO), sans laquelle nous n'aurions pu avoir accès à la superbe salle de spectacle qui a accueilli le tournage de la pièce de théâtre du cycle 3.</br>
-    Pour compenser cela, nous proposons aux familles et à ceux qui le souhaitent de faire un don, déductible des impôts, pour l’AFAO</p>
+    </br></br> 
+    <p>
+    Cette année les CE1/CE2 ont présenté un film avec deux chansons, le cycle 3 a proposé le film de leur pièce de théâtre en anglais et les 5èmes ont joué plusieurs courts métrages en anglais.</br>
+    Deux soirées de retransmission vous ont été proposées, ainsi qu'aux familles d'élèves, pour partager ces moments virtuellement.</br>
+    L’APEL avait pour projet de reverser l'ensemble des bénéfices de ces soirées, si elles avaient pu se faire en présentiel, à une association
+     chère à notre communauté, l'Association Française de l'Atrésie de l'Oesophage (AFAO), 
+    sans laquelle nous n'aurions pas pu avoir accès à la superbe salle de spectacle qui a accueilli le tournage de la pièce de théâtre du cycle 3.</br>
+    Pour compenser cela, nous proposons aux familles et à ceux qui le souhaitent de faire un don, déductible des impôts, pour l’AFAO.</br>
+    </p>
   </div>
   
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-         <h3>Etape n°1 :</h3><h4><a id="donner" href="https://www.helloasso.com/associations/association-francaise-de-l-atresie-de-l-sophage/collectes/spectacle-st-medard-en-jalles-maud-pasquet" class="button" target="_blank">FAIRE UN DON A NOTRE ASSOCIATION</a></h4>
+         <h3>Pour faire un don :</h3><h4><a id="donner" href="https://www.helloasso.com/associations/association-francaise-de-l-atresie-de-l-sophage/collectes/spectacle-st-medard-en-jalles-maud-pasquet" class="button" target="_blank">FAIRE UN DON A NOTRE ASSOCIATION</a></h4>
       </div>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
@@ -53,7 +59,7 @@
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;">
             <form class="grid-x grid-padding-x" data-animation="top" id="formulaire" name="formulaire" method="post">
-					<h3>Etape n°2 :</h3>
+					<h3>Pour télécharger :</h3>
 					<input type="text" name="nom" id="nom" placeholder="Indiquez vos nom et prénom" required  />
 					<input type="email" name="email" id="email" placeholder="Indiquez votre e-mail" required />
 			</form>
@@ -64,14 +70,17 @@
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
       <div class="callout secondary">
-           <h4><a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger" class="button" >TELECHARGER LE SPECTACLE EN HD (3,5Go)</a></h4>
+           <h4><a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger" class="button" >TELECHARGER / VOIR LE SPECTACLE DES CM & 6ème (3,5Go)</a></h4>
       </div>
   </div>
+ <!-- 
    <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
       <div class="callout secondary">
            <h4>ou :</h4><h4><a href="peter.html" id="streaming" target="_blank" class="button">Voir en streaming</a></h4>
       </div>
   </div>
+   -->
+  
 <?php include('inc/scripts.php'); ?>
 </body>
 <script type="text/javascript">
@@ -102,12 +111,7 @@
 	
 	$(document).on('click','#telecharger',function(e) {
 
-	if (donfait == 0)
-	{
-
-		alert("Merci de faire un don à notre association.");
-		   
-	} else if (document.getElementById("nom").value.length == 0) {
+	if (document.getElementById("nom").value.length == 0) {
 
 		alert("Veuillez renseigner votre nom svp.");
 	   
@@ -117,7 +121,7 @@
 
 	} else {	
 	
-		document.location.href="downloader.php?doc=PeterPanHD.mp4";
+		document.location.href="https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0";
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
