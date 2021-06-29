@@ -121,7 +121,8 @@
 
 	} else {	
 	
-		document.location.href="https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0";
+		//document.location.href="https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0";
+		window.open('https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
