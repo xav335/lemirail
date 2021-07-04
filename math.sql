@@ -1,8 +1,8 @@
--- MariaDB dump 10.17  Distrib 10.4.13-MariaDB, for osx10.10 (x86_64)
+-- MySQL dump 10.19  Distrib 10.3.29-MariaDB, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: math
 -- ------------------------------------------------------
--- Server version	10.4.13-MariaDB
+-- Server version	10.3.29-MariaDB-0+deb10u1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -23,6 +23,7 @@ DROP TABLE IF EXISTS `contact`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `contact` (
+  `date` datetime NOT NULL DEFAULT current_timestamp(),
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `firstname` varchar(250) DEFAULT NULL,
   `name` varchar(250) DEFAULT NULL,
@@ -34,7 +35,7 @@ CREATE TABLE `contact` (
   `fromgoldbook` tinyint(4) NOT NULL DEFAULT 0,
   `fromcontact` tinyint(4) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4008 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4016 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +44,7 @@ CREATE TABLE `contact` (
 
 LOCK TABLES `contact` WRITE;
 /*!40000 ALTER TABLE `contact` DISABLE KEYS */;
-INSERT INTO `contact` VALUES (4006,'','GONZALEZ','nzalez@gmail.com','F3GcB','',NULL,0,0,1),(4007,'','GONZALEZ','jgonzalez@iconeo.fr','0WiaR','',NULL,0,0,1);
+INSERT INTO `contact` VALUES ('2021-06-29 00:00:00',4006,'','GONZALEZ','nzalez@gmail.com','F3GcB','',NULL,0,0,1),('2021-06-29 00:00:00',4007,'','GONZALEZ','jgonzalez@iconeo.fr','0WiaR','',NULL,0,0,1),('2021-06-29 00:00:00',4008,'','Emmanuel D\'alzon','xavier@gonzalez.pm','omoDP','',NULL,0,0,1),('2021-06-29 14:19:22',4009,'','erik','zzzz@ss','A0DyQ','',NULL,0,0,1),('2021-06-29 16:37:24',4010,'','PASQUET Maud','maud_charron@hotmail.com','N7VGa','',NULL,0,0,1),('2021-06-29 22:42:15',4011,'cm6eme','Javier GONZALEZ','isa.alvarez.fernandez@gmail.com','rF4Mu','',NULL,0,0,1),('2021-06-29 23:53:30',4012,'cm6eme','Javier GONZALEZ','zalez@gmail.com','OCtxa','',NULL,0,0,1),('2021-06-29 23:54:32',4013,'cm6eme','test','jjj@jj.gg','WDYVT','',NULL,0,0,1),('2021-06-29 23:56:15',4014,'cm6eme','ffff','qqq@ddd.gt','OyyBX','',NULL,0,0,1),('2021-06-30 12:12:14',4015,'ce5eme','john wayne','xav335@hotmail.com','CEv56','',NULL,0,0,1);
 /*!40000 ALTER TABLE `contact` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -84,4 +85,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-29 13:57:46
+-- Dump completed on 2021-07-04 11:48:59
