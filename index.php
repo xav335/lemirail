@@ -109,7 +109,7 @@
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
       <div class="callout secondary">
-           <h5>LE 1er Eco-magasine du collège</br> <a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger5" class="button" >consulter en ligne</a></h5>
+           <h5>LE 1er Eco-magasine du collège</br> <a href="https://madmagz.com/fr/magazine/preview/1853534#" target="_blank" id="telecharger5" class="button" >consulter en ligne</a></h5>
       </div>
  <!-- 
    <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
