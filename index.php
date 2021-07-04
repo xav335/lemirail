@@ -73,21 +73,21 @@
 <hr></hr>
    <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-         <h3>Spectacles de nos élèves</h3></div>
+         <h3>&starf;&nbsp;Spectacles de nos élèves&nbsp;&starf;</h3></div>
    </div>
    <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-       <h5>LE SPECTACLE DES CM1 - CM2 - 6ème </br>
+       <h5>&star;&nbsp;LE SPECTACLE DES CM1 - CM2 - 6ème&nbsp;&star;</br>
        <img src="img/cm.png" alt="" />
        <a href="#" target="_blank" id="telecharger1" class="button" >TELECHARGER / VOIR </a></h5>
    </div>
    <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-           <h5>LE SPECTACLE DES CE - 5ème </br> 
+           <h5>&star;&nbsp;LE SPECTACLE DES CE - 5ème&nbsp;&star;</br> 
            <img src="img/" alt="" />
            <a href="#" target="_blank" id="telecharger2" class="button" >TELECHARGER / VOIR </a></h5>
    </div>
    </div>
    <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-        <h5>LE SPECTACLE DES CE1 - CE2 </br>
+        <h5>&star;&nbsp;LE SPECTACLE DES CE1 - CE2&nbsp;&star;</br>
         <img src="img/CE.png" alt="" />
         <a href="#" target="_blank" id="telecharger3" class="button" >TELECHARGER / VOIR </a></h5>
    </div>
@@ -100,7 +100,7 @@
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-         <h3>Théatre en anglais des 5ème</h3></div>
+         <h3>&starf;&nbsp;Théatre en anglais des 5ème&nbsp;&starf;</h3></div>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
        <h5>Groupe A </br>
@@ -125,22 +125,22 @@
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-         <h3>Travaux du bloc culture des 5ème</h3></div>
+         <h3>&starf;&nbsp;Travaux du bloc culture des 5ème&nbsp;&starf;</h3></div>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-       <h5>LES INTERVIEWS DES CHEVALIERS</br>
+       <h5>&star;&nbsp;D'Alzon-TV : INTERVIEWS DES CHEVALIERS&nbsp;&star;</br>
        <img src="img/BC5.png" alt="" />
        <a href="#" target="_blank" id="telecharger4" class="button" >TELECHARGER / VOIR </a></h5>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-           <h5>Le defi astro PI </br> 
+           <h5>&star;&nbsp;Le defi astro PI&nbsp;&star;</br> 
            <img src="img/TP.png" alt="" />
-           <a href="https://esero.fr/actualites/astropi-mission-zero-les-programmes-des-jeunes-a-bord-de-liss/" target="_blank" id="telecharger5" class="button" >félicitations de T.Pesquet</a></h4>
+           <a href="#" target="_blank" id="telecharger5" class="button" >Message de Thomas Pesquet</a></h4>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-           <h5>LE 1er Eco-magasine du collège</br> 
+           <h5>&star;&nbsp;LE 1er Eco-magasine du collège&nbsp;&star;</br> 
            <img src="img/mag.png" alt="" />
-           <a href="https://madmagz.com/fr/magazine/preview/1853534#" target="_blank" id="telecharger6" class="button" >consulter en ligne</a></h5>
+           <a href="#" target="_blank" id="telecharger6" class="button" >consulter en ligne</a></h5>
  </div>
  <hr></hr>          
  <!-- 
@@ -183,13 +183,15 @@
 	//-------#######------- telecharger1 ----------#########-------//
 	$(document).on('click','#telecharger1',function(e) {   //#####   Achanger
 
-	if (document.getElementById("nom").value.length == 0) {
+		if (document.getElementById("nom").value.length == 0) {
 
-		alert("Veuillez renseigner votre nom svp.");
-	   
-	} else if (!document.getElementById("email").value.match(mailformat))  {
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
 
-		alert("Veuillez renseigner votre email svp.");
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
 
 	} else {	
 	
@@ -203,7 +205,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger1'   //#####   Achanger
+	    	value: 'peterpan'   //#####   Achanger
 	  	})
 
 	  console.log(data);
@@ -230,13 +232,15 @@
 	//-------#######------- telecharger2 ----------#########-------//
 	$(document).on('click','#telecharger2',function(e) {
 
-	if (document.getElementById("nom").value.length == 0) {
+		if (document.getElementById("nom").value.length == 0) {
 
-		alert("Veuillez renseigner votre nom svp.");
-	   
-	} else if (!document.getElementById("email").value.match(mailformat))  {
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
 
-		alert("Veuillez renseigner votre email svp.");
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
 
 	} else {	
 	
@@ -250,7 +254,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger2'
+	    	value: 'ce5eme'
 	  	})
 
 	  console.log(data);
@@ -277,13 +281,15 @@
 	//-------#######------- telecharger3 ----------#########-------//
 	$(document).on('click','#telecharger3',function(e) {
 
-	if (document.getElementById("nom").value.length == 0) {
+		if (document.getElementById("nom").value.length == 0) {
 
-		alert("Veuillez renseigner votre nom svp.");
-	   
-	} else if (!document.getElementById("email").value.match(mailformat))  {
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
 
-		alert("Veuillez renseigner votre email svp.");
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
 
 	} else {	
 	
@@ -297,7 +303,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger3'
+	    	value: 'ce1ce2'
 	  	})
 
 	  console.log(data);
@@ -324,13 +330,15 @@
 	//-------#######------- telecharger4 ----------#########-------//
 	$(document).on('click','#telecharger4',function(e) {
 
-	if (document.getElementById("nom").value.length == 0) {
+		if (document.getElementById("nom").value.length == 0) {
 
-		alert("Veuillez renseigner votre nom svp.");
-	   
-	} else if (!document.getElementById("email").value.match(mailformat))  {
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
 
-		alert("Veuillez renseigner votre email svp.");
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
 
 	} else {	
 	
@@ -344,7 +352,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger4'
+	    	value: 'chevaliers'
 	  	})
 
 	  console.log(data);
@@ -368,16 +376,117 @@
 	})
 	//-------#######------- ######### ----------#########-------//
 	
+	//-------#######------- telecharger5 ----------#########-------//
+	$(document).on('click','#telecharger5',function(e) {
+
+		if (document.getElementById("nom").value.length == 0) {
+
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
+
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
+
+	} else {	
+	
+		window.open('https://esero.fr/actualites/astropi-mission-zero-les-programmes-des-jeunes-a-bord-de-liss/', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'astropi'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	//-------#######------- telecharger6 ----------#########-------//
+	$(document).on('click','#telecharger6',function(e) {
+
+		if (document.getElementById("nom").value.length == 0) {
+
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
+
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
+
+	} else {	
+	
+		window.open('https://madmagz.com/fr/magazine/preview/1853534#', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'ecomag'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	
 	//-------#######------- telecharger7 ----------#########-------//
 	$(document).on('click','#telecharger7',function(e) {
 
-	if (document.getElementById("nom").value.length == 0) {
+		if (document.getElementById("nom").value.length == 0) {
 
-		alert("Veuillez renseigner votre nom svp.");
-	   
-	} else if (!document.getElementById("email").value.match(mailformat))  {
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
 
-		alert("Veuillez renseigner votre email svp.");
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
 
 	} else {	
 	
@@ -391,7 +500,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger7'
+	    	value: 'johnny'
 	  	})
 
 	  console.log(data);
@@ -419,13 +528,15 @@
 	//-------#######------- telecharger8 ----------#########-------//
 	$(document).on('click','#telecharger8',function(e) {
 
-	if (document.getElementById("nom").value.length == 0) {
+		if (document.getElementById("nom").value.length == 0) {
 
-		alert("Veuillez renseigner votre nom svp.");
-	   
-	} else if (!document.getElementById("email").value.match(mailformat))  {
+			alert("Veuillez renseigner votre nom svp.");
+			document.getElementById("nom").focus();
+		   
+		} else if (!document.getElementById("email").value.match(mailformat))  {
 
-		alert("Veuillez renseigner votre email svp.");
+			alert("Veuillez renseigner votre email svp.");
+			document.getElementById("email").focus();
 
 	} else {	
 	
@@ -439,7 +550,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger8'
+	    	value: 'comicon'
 	  	})
 
 	  console.log(data);
@@ -469,11 +580,12 @@
 	if (document.getElementById("nom").value.length == 0) {
 
 		alert("Veuillez renseigner votre nom svp.");
-		document.getElementById("nom").focus;
+		document.getElementById("nom").focus();
 	   
 	} else if (!document.getElementById("email").value.match(mailformat))  {
 
 		alert("Veuillez renseigner votre email svp.");
+		document.getElementById("email").focus();
 
 	} else {	
 	
@@ -487,7 +599,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'telecharger9'
+	    	value: 'sherlock'
 	  	})
 
 	  console.log(data);
