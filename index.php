@@ -73,44 +73,76 @@
 <hr></hr>
    <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-         <h3>Spectacles des élèves</h3></div>
-  </div>
-  <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-           <h5>LE SPECTACLE DES CM - 6ème </br> <a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger" class="button" >TELECHARGER / VOIR</a></h5>
-      </div>
-  </div>
-  <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-           <h5>LE SPECTACLE DES CE - 5ème </br> <a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger2" class="button" >TELECHARGER / VOIR </a></h4>
-      </div>
-  </div>
-  <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-           <h5>LE SPECTACLE DES  -  </br> <a href="downloader.php?doc=PeterPanHD.mp4" target="_blank" id="telecharger3" class="button" >TELECHARGER / VOIR </a></h4>
-      </div>
-  </div>
+         <h3>Spectacles de nos élèves</h3></div>
+   </div>
+   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+       <h5>LE SPECTACLE DES CM1 - CM2 - 6ème </br>
+       <img src="img/cm.png" alt="" />
+       <a href="#" target="_blank" id="telecharger1" class="button" >TELECHARGER / VOIR </a></h5>
+   </div>
+   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+           <h5>LE SPECTACLE DES CE - 5ème </br> 
+           <img src="img/" alt="" />
+           <a href="#" target="_blank" id="telecharger2" class="button" >TELECHARGER / VOIR </a></h5>
+   </div>
+   </div>
+   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+        <h5>LE SPECTACLE DES CE1 - CE2 </br>
+        <img src="img/CE.png" alt="" />
+        <a href="#" target="_blank" id="telecharger3" class="button" >TELECHARGER / VOIR </a></h5>
+   </div>
+  
+  
   
   <hr></hr>
+  
+  
+  
+  <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
+      <div class="callout secondary">
+         <h3>Théatre en anglais des 5ème</h3></div>
+  </div>
+  <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+       <h5>Groupe A </br>
+       <img src="img/english5A.png" alt="" />
+       <a href="#" target="_blank" id="telecharger7" class="button" >TELECHARGER / VOIR </a></h5>
+   </div>
+   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+       <h5>Groupe B</br> 
+       <img src="img/comic5B.png" alt="" />
+       <a href="#" target="_blank" id="telecharger8" class="button" >TELECHARGER / VOIR </a></h5>
+   </div>
+   </div>
+   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+        <h5>Groupe C</br>
+        <img src="img/sherlock5C.png" alt="" />
+        <a href="#" target="_blank" id="telecharger9" class="button" >TELECHARGER / VOIR </a></h5>
+   </div>
+  <hr></hr>
+  
+  
+  
+  
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
          <h3>Travaux du bloc culture des 5ème</h3></div>
   </div>
-    
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-           <h5>LES INTERVIEWS DES CHEVALIERS </br> <a href="https://www.dropbox.com/sh/k5qqmcn4rivdi9a/AAA90HrxZF8EGInyiUfwfT1sa?dl=0" target="_blank" id="telecharger4" class="button" >TELECHARGER / VOIR </a></h4>
-      </div>
+       <h5>LES INTERVIEWS DES CHEVALIERS</br>
+       <img src="img/BC5.png" alt="" />
+       <a href="#" target="_blank" id="telecharger4" class="button" >TELECHARGER / VOIR </a></h5>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-           <h5>LE defi astro PI </br> <a href="https://esero.fr/actualites/astropi-mission-zero-les-programmes-des-jeunes-a-bord-de-liss/" target="_blank" id="telecharger5" class="button" >félicitations de T.Pesquet</a></h4>
-      </div>
+           <h5>Le defi astro PI </br> 
+           <img src="img/TP.png" alt="" />
+           <a href="https://esero.fr/actualites/astropi-mission-zero-les-programmes-des-jeunes-a-bord-de-liss/" target="_blank" id="telecharger5" class="button" >félicitations de T.Pesquet</a></h4>
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-      <div class="callout secondary">
-           <h5>LE 1er Eco-magasine du collège</br> <a href="https://madmagz.com/fr/magazine/preview/1853534#" target="_blank" id="telecharger5" class="button" >consulter en ligne</a></h5>
-      </div>
+           <h5>LE 1er Eco-magasine du collège</br> 
+           <img src="img/mag.png" alt="" />
+           <a href="https://madmagz.com/fr/magazine/preview/1853534#" target="_blank" id="telecharger6" class="button" >consulter en ligne</a></h5>
+ </div>
+ <hr></hr>          
  <!-- 
    <div class="large-12 medium-12 small-12 columns" style="text-align: center;"> 
       <div class="callout secondary">
@@ -119,6 +151,8 @@
   </div>
    -->
    </br></br>  </br></br>  </br></br>  </br></br> 
+   
+   
 <?php include('inc/scripts.php'); ?>
 </body>
 <script type="text/javascript">
@@ -146,8 +180,8 @@
 		 //return false;
 	})
 
-	//-------#######------- cm6eme ----------#########-------//
-	$(document).on('click','#telecharger',function(e) {   //#####   Achanger
+	//-------#######------- telecharger1 ----------#########-------//
+	$(document).on('click','#telecharger1',function(e) {   //#####   Achanger
 
 	if (document.getElementById("nom").value.length == 0) {
 
@@ -159,8 +193,7 @@
 
 	} else {	
 	
-		//document.location.href="https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0";
-		window.open('https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0', '_blank');  //#####   Achanger
+		window.open('https://www.dropbox.com/s/jymtpdpr46n2zmk/Olivier_Gayrard_Peter%20Pan%20HD.mp4?dl=0', '_blank');  //#####   Achanger
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
@@ -170,7 +203,7 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'cm6eme'   //#####   Achanger
+	    	value: 'telecharger1'   //#####   Achanger
 	  	})
 
 	  console.log(data);
@@ -194,7 +227,7 @@
 	})
 	//-------#######------- ######### ----------#########-------//
 	
-	//-------#######------- ce5eme ----------#########-------//
+	//-------#######------- telecharger2 ----------#########-------//
 	$(document).on('click','#telecharger2',function(e) {
 
 	if (document.getElementById("nom").value.length == 0) {
@@ -207,8 +240,7 @@
 
 	} else {	
 	
-		//document.location.href="https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0";
-		window.open('https://www.dropbox.com/s/vjge97ycj49omjj/PeterPanHD.mp4?dl=0', '_blank');
+		window.open('XXXXXXX', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
@@ -218,7 +250,244 @@
 	  	},
 		{
 	   		name: 'file',
-	    	value: 'ce5eme'
+	    	value: 'telecharger2'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	//-------#######------- telecharger3 ----------#########-------//
+	$(document).on('click','#telecharger3',function(e) {
+
+	if (document.getElementById("nom").value.length == 0) {
+
+		alert("Veuillez renseigner votre nom svp.");
+	   
+	} else if (!document.getElementById("email").value.match(mailformat))  {
+
+		alert("Veuillez renseigner votre email svp.");
+
+	} else {	
+	
+		window.open('https://www.dropbox.com/s/cdvml9mxnnqd4o0/Olivier_Gayrard_Chansons%20CE1-CE2.mp4?dl=0', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'telecharger3'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	//-------#######------- telecharger4 ----------#########-------//
+	$(document).on('click','#telecharger4',function(e) {
+
+	if (document.getElementById("nom").value.length == 0) {
+
+		alert("Veuillez renseigner votre nom svp.");
+	   
+	} else if (!document.getElementById("email").value.match(mailformat))  {
+
+		alert("Veuillez renseigner votre email svp.");
+
+	} else {	
+	
+		window.open('https://www.dropbox.com/sh/k5qqmcn4rivdi9a/AAA90HrxZF8EGInyiUfwfT1sa?dl=0', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'telecharger4'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	//-------#######------- telecharger7 ----------#########-------//
+	$(document).on('click','#telecharger7',function(e) {
+
+	if (document.getElementById("nom").value.length == 0) {
+
+		alert("Veuillez renseigner votre nom svp.");
+	   
+	} else if (!document.getElementById("email").value.match(mailformat))  {
+
+		alert("Veuillez renseigner votre email svp.");
+
+	} else {	
+	
+		window.open('https://www.dropbox.com/s/mbn5pm8fr4w2drl/Olivier_Gayrard_Johnny%20English.mp4?dl=0', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'telecharger7'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	
+	//-------#######------- telecharger8 ----------#########-------//
+	$(document).on('click','#telecharger8',function(e) {
+
+	if (document.getElementById("nom").value.length == 0) {
+
+		alert("Veuillez renseigner votre nom svp.");
+	   
+	} else if (!document.getElementById("email").value.match(mailformat))  {
+
+		alert("Veuillez renseigner votre email svp.");
+
+	} else {	
+	
+		window.open('https://www.dropbox.com/s/40v496pg1yawat5/Olivier_Gayrard_Comic-Con.mp4?dl=0', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'telecharger8'
+	  	})
+
+	  console.log(data);
+
+	    /* I put the above code for check data before send to ajax*/
+	    $.ajax({
+		        url: '/ajax/contact.php',
+		        type: 'post',
+		        data: data,
+		        success: function (data) {
+		            $("#resultat").html("<hr><h2 class='sous-titre'>Merci pour votre message</h2><hr>");
+		        	//$("#nom").val("");
+		           	//$("#email").val("");
+		        },
+		        error: function() {
+		        	 $("#resultat").html("<h3>Une erreur s'est produite !</h3>");
+		        }
+		   	});
+		}
+	return false;
+	})
+	//-------#######------- ######### ----------#########-------//
+	
+	//-------#######------- telecharger9 ----------#########-------//
+	$(document).on('click','#telecharger9',function(e) {
+
+	if (document.getElementById("nom").value.length == 0) {
+
+		alert("Veuillez renseigner votre nom svp.");
+		document.getElementById("nom").focus;
+	   
+	} else if (!document.getElementById("email").value.match(mailformat))  {
+
+		alert("Veuillez renseigner votre email svp.");
+
+	} else {	
+	
+		window.open('https://www.dropbox.com/s/i3y5c8wisa6qwjo/Olivier_Gayrard_SHERLOCK%20HOLMES_1.mp4?dl=0', '_blank');
+	  	e.preventDefault();
+	  	data = $("#formulaire").serializeArray();
+
+	 	 data.push({
+	   		name: 'action',
+	    	value: 'sendMail'
+	  	},
+		{
+	   		name: 'file',
+	    	value: 'telecharger9'
 	  	})
 
 	  console.log(data);

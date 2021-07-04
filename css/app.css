@@ -11,7 +11,7 @@
 
 body {font-family:'CenturyGothic';color:black;padding-left: 40px; padding-right: 40px}
 h1, h2, h3, h4, h5, h6 {font-family:'CenturyGothic';text-transform:uppercase;font-weight: bold;}
-
+hr {border: 1px solid #2aaaff;}
 .actualites .swiper-slide h3 {color:#fff;}
 
 header {text-align:center;}
