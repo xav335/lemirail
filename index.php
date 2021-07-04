@@ -30,7 +30,7 @@
       <img src="img/logoEDA.jpg" alt="" />  
     </div>
     <div class="large-6 medium-6 small-12 columns" style="text-align: center;"> 
-       </br></br> <h2>Page de téléchargement des spectacles de nos élèves.</h2>
+       </br></br> <h2>Page de téléchargement </br> des spectacles et travaux de nos élèves.</h2>
     </div>
     <div class="large-3 medium-3 small-12 columns" style="text-align: center;"> 
       </br></br><img src="img/AFA.png" alt="" />  
@@ -490,7 +490,7 @@
 
 	} else {	
 	
-		window.open('https://www.dropbox.com/s/mbn5pm8fr4w2drl/Olivier_Gayrard_Johnny%20English.mp4?dl=0', '_blank');
+		window.open('https://www.dropbox.com/s/d3o68twywigvu1j/Johnny%20English.mp4?dl=0', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
