@@ -38,7 +38,7 @@ if ($_POST[ "action" ] == "sendMail") {
         $entete .= "Bcc:" . MAIL_BCC . "\n";
         //echo "Entete :<br>" . $entete . "<br><br>";
         
-        $sujet = utf8_decode( "Prise de contact de l'".$_POST['from'] );
+        $sujet = utf8_decode( "Téléchargement de ".$_POST['nom'] );
         
         //$_to = "franck_langleron@hotmail.com";
             $_to = ( MAIL_TEST != '' )
@@ -47,11 +47,11 @@ if ($_POST[ "action" ] == "sendMail") {
         //echo "Envoi du message à : " . $_to . "<br><br>";
         
         $message = "Bonjour,<br><br>";
-        $message .= "La personne suivante a rempli le formulaire de contact :<br>";
-        $message .= "Nom : <b>" . $_POST[ "name" ] . " " . $_POST[ "firstname" ] . "</b><br>";
+        $message .= "La personne suivante a téléchargé :<br>";
+        $message .= "Nom : <b>" . $_POST[ "nom" ] . " " . $_POST[ "firstname" ] . "</b><br>";
         $message .= "E-mail / Téléphone : <b>" . $_POST[ "email" ] . " / " . $_POST[ "phone" ] . "</b><br>";
         $message .= "Adresse : <b>" . $_POST[ "cp" ] . " " . $_POST[ "town" ] . "</b><br>";
-        $message .= "Message : <br><i>" . nl2br( $_POST[ "message" ] ) . "</i><br><br>";
+        $message .= "Fichier : <br><i>" . nl2br( $_POST[ "file" ] ) . "</i><br><br>";
         $message = utf8_decode( $message );
      
         error_log(date("Y-m-d H:i:s") ." : ". $message ."\n", 3, "../log/spy.log");
