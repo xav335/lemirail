@@ -435,7 +435,7 @@
 
 	} else {	
 	
-		window.open('https://madmagz.com/fr/magazine/preview/1853534#', '_blank');
+		window.open('https://madmagz.com/fr/magazine/1853534', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
