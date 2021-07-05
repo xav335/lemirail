@@ -375,3 +375,43 @@
 2021-06-29 23:44:41 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>fjavi.gonza@ail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
 2021-06-29 23:44:41 : Message envoyÃ© ! 
 2021-06-29 23:44:41 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-07-05 09:11:53 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-07-05 09:11:53 : sendMail
+2021-07-05 09:11:53 : Javier GONZALEZ
+2021-07-05 09:11:53 : gregorio.gonzalez.fernandez@gmail.com
+2021-07-05 09:11:53 : ecomag
+2021-07-05 09:11:53 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'Javier GONZALEZ',
+						'gregorio.gonzalez.fernandez@gmail.com',
+						'ecomag',
+						'Bvdgw',
+						'',
+						0,
+						0,
+						1
+					);
+2021-07-05 09:11:53 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>gregorio.gonzalez.fernandez@gmail.com / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-07-05 09:11:53 : Message envoyÃ© ! 
+2021-07-05 09:11:53 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
+2021-07-05 11:37:32 xxxxxxxxxxx  /Applications/XAMPP/xamppfiles/htdocs/math/ajax/contact.php  xxxxxxxxxxx  
+2021-07-05 11:37:32 : sendMail
+2021-07-05 11:37:32 : Javier GONZALEZ
+2021-07-05 11:37:32 : xavier.gonzalez@free.fr
+2021-07-05 11:37:32 : ce1ce2
+2021-07-05 11:37:32 : INSERT INTO  .`contact`
+						(`name`, `email`, `firstname`,`password`,`tel`,`newsletter`,`fromgoldbook`,`fromcontact`)
+						VALUES (
+						'Javier GONZALEZ',
+						'xavier.gonzalez@free.fr',
+						'ce1ce2',
+						'Ptj8r',
+						'',
+						0,
+						0,
+						1
+					);
+2021-07-05 11:37:32 : Bonjour,<br><br>La personne suivante a rempli le formulaire de contact :<br>Nom : <b> </b><br>E-mail / Téléphone : <b>xavier.gonzalez@free.fr / </b><br>Adresse : <b> </b><br>Message : <br><i></i><br><br>
+2021-07-05 11:37:32 : Message envoyÃ© ! 
+2021-07-05 11:37:32 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  

@@ -75,18 +75,14 @@
       <div class="callout secondary">
          <h3>&starf;&nbsp;Spectacles de nos élèves&nbsp;&starf;</h3></div>
    </div>
-   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+   <div class="large-6 medium-6 small-12 columns" style="text-align: center;"> 
        <h5>&star;&nbsp;LE SPECTACLE DES CM1 - CM2 - 6ème&nbsp;&star;</br>
        <img src="img/cm.png" alt="" />
        <a href="#" target="_blank" id="telecharger1" class="button" >TELECHARGER / VOIR </a></h5>
    </div>
-   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
-           <h5>&star;&nbsp;LE SPECTACLE DES CE - 5ème&nbsp;&star;</br> 
-           <img src="img/" alt="" />
-           <a href="#" target="_blank" id="telecharger2" class="button" >TELECHARGER / VOIR </a></h5>
+  
    </div>
-   </div>
-   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
+   <div class="large-6 medium-6 small-12 columns" style="text-align: center;"> 
         <h5>&star;&nbsp;LE SPECTACLE DES CE1 - CE2&nbsp;&star;</br>
         <img src="img/CE.png" alt="" />
         <a href="#" target="_blank" id="telecharger3" class="button" >TELECHARGER / VOIR </a></h5>
@@ -119,7 +115,6 @@
         <a href="#" target="_blank" id="telecharger9" class="button" >TELECHARGER / VOIR </a></h5>
    </div>
   <hr></hr>
-  
   
   
   
