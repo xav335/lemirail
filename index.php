@@ -51,7 +51,7 @@
   
   <div class="large-12 medium-12 small-12 columns" style="text-align: center;">
       <div class="callout secondary">
-         <h3>Pour faire un don :</h3><h5><a id="donner" href="https://www.helloasso.com/associations/association-francaise-de-l-atresie-de-l-sophage/collectes/spectacle-st-medard-en-jalles-maud-pasquet" class="button" target="_blank">FAIRE UN DON A NOTRE ASSOCIATION</a></h4>
+         <h3>Pour faire un don :</h3><h5><a id="donner" href="https://www.helloasso.com/associations/association-francaise-de-l-atresie-de-l-sophage/collectes/spectacle-st-medard-en-jalles-maud-pasquet" class="button" target="_blank">FAIRE UN DON A L'ASSOCIATION</a></h4>
       </div>
   </div>
     <hr></hr>
