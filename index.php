@@ -435,7 +435,7 @@
 
 	} else {	
 	
-		window.open('https://madmagz.com/fr/magazine/1853534', '_blank');
+		window.open('https://madmagz.com/fr/magazine/1930005', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
@@ -535,7 +535,7 @@
 
 	} else {	
 	
-		window.open('https://www.dropbox.com/s/40v496pg1yawat5/Olivier_Gayrard_Comic-Con.mp4?dl=0', '_blank');
+		window.open('https://www.dropbox.com/s/1de4e9dv1rgpcci/Nolan%20Deniaud%20-%20Comic-Con.mp4?dl=0', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
@@ -584,7 +584,7 @@
 
 	} else {	
 	
-		window.open('https://www.dropbox.com/s/i3y5c8wisa6qwjo/Olivier_Gayrard_SHERLOCK%20HOLMES_1.mp4?dl=0', '_blank');
+		window.open('https://www.dropbox.com/s/m42t07npn9y5ab2/Nolan%20Deniaud%20-%20SHERLOCK%20HOLMES.mp4?dl=0', '_blank');
 	  	e.preventDefault();
 	  	data = $("#formulaire").serializeArray();
 
