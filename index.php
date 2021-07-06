@@ -134,7 +134,7 @@
   </div>
   <div class="large-4 medium-4 small-12 columns" style="text-align: center;"> 
            <h5>&star;&nbsp;LE 1er Eco-magasine du collège&nbsp;&star;</br> 
-           <img src="img/mag.png" alt="" />
+           <img src="img/mag2.png" alt="" />
            <a href="#" target="_blank" id="telecharger6" class="button" >consulter en ligne</a></h5>
  </div>
  <hr></hr>          
